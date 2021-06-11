@@ -1,0 +1,166 @@
+/*  ------------ ESTILOS GENERALES -------------  */
+body{
+    background-color: #F8F8FF;
+    font-family: 'poppins',
+    sans-serif !important;
+}
+
+.min-height{
+    min-height: 900px;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 2rem;
+    color: #5A5DEC;
+}
+
+h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #5A5DEC;
+}
+
+h4{
+    font-family: 'poppins',
+    sans-serif;
+    font-weight: 600;
+    color: #5A5DEC;
+}
+
+h5{
+    font-weight: 600;
+    color: #5A5DEC;
+}
+
+p{
+    color: gray;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+a:hover{
+    text-decoration: none;
+    background-color: #5A5DEC;
+    color:rgb(255, 255, 255) !important;
+}
+
+button:hover{
+    transform: translate(1px, 1px);
+}
+
+.color-morado{
+    background-color: #5A5DEC !important; 
+}
+
+.texto-morado{
+    color: #5A5DEC !important;
+    font-weight: 600;
+}
+
+.sin-borde{
+    border: none;
+}
+
+/*  ------------ HEADER -------------  */
+.header{
+    background-color: white;
+}
+
+.menu_hamburgesa{
+    text-align: end;
+}
+
+/*  ------------ FOOTER -------------  */
+.footer{
+    background-color:white;
+    min-height: 250px;
+    color: gray;
+    align-items:center;
+}
+
+/*  ------------ INDEX -------------  */
+.imagen-fondo{
+    min-height: 700px;
+    background-image: url(./images/fotocat2bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.seccion1{
+    display: grid;
+    align-items: center !important;
+    grid-template-areas:
+    'titulo'
+    'botones';
+}
+
+.seccion1__titulo{
+    grid-area: titulo;
+    padding: 20px;
+    padding-left: 50px;
+    align-self: end;
+    justify-self: start;  
+}
+
+.seccion1__botones{
+    grid-area: botones;
+    padding: 20px;
+    padding-left: 50px;
+    justify-self: start;
+    align-self: start;
+    column-gap: 2rem;
+}
+
+/*  ------------ ABOUT US -------------  */
+
+/*  ------------ ADOPT -------------  */
+
+.sin-fondo{
+    background-color:#F8F8FF !important;
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+
+.card {
+    margin: 5px;
+    padding-top: 5px;
+    box-shadow: 2px 6px 8px 0  rgb(231, 231, 231);
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: #e1e1e1;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  @media (min-width: 978px) {
+    .card img {
+      height: 11em;
+    }
+  }
+
+/*  ------------ EVENTS -------------  */
+
+/*  ------------ CONTACT -------------  */
