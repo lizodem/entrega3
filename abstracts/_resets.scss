@@ -1,0 +1,66 @@
+@mixin fuente-grosor {
+    color: $colormorado;
+    font-weight: 600;
+}
+
+body{
+    background-color: $colorfondo;
+    font-family: 'poppins',
+    sans-serif !important;
+}
+
+.min-height{
+    min-height: 900px;
+}
+
+h1{
+    @include fuente-grosor();
+    font-size: 2rem;  
+}
+
+h2{
+    @include fuente-grosor();
+    font-size: 1.5rem;  
+}
+
+h4{
+    font-family: 'poppins',
+    sans-serif;
+    @include fuente-grosor();
+}
+
+h5{
+    @include fuente-grosor();
+}
+
+p{
+    color: $colorgris;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+a:hover{
+    text-decoration: none;
+    background-color: $colormorado;
+    color:rgb(255, 255, 255) !important;
+    border-radius: .25rem;
+}
+
+button:hover{
+    transform: translate(1px, 1px);
+}
+
+.color-morado{
+    background-color: $colormorado !important; 
+}
+
+.texto-morado{
+    @include fuente-grosor();
+}
+
+.sin-borde{
+    border: none;
+}
