@@ -13,7 +13,7 @@
   <body>
     <!------HEADER------>
     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top justify-content-between header p-3">
-      <a class="navbar-brand" href="index.html">
+      <a class="navbar-brand" href="index.html" id="logo">
       <img src="./images/logonuevo.png" class="img-fluid" width="180px" height="70px" alt="Responsive Image">
       </a>
       <button class="navbar-toggler border border-light" data-toggle="collapse" data-target="#boton_collapse">
@@ -42,115 +42,104 @@
     <!--SECTION ADOPTA-->
     <main class="min-height">
       <div class="container">
-      <ol class="breadcrumb sin-fondo">
-        <li class="breadcrumb-item"><a href="index.html" class="text-decoration-none text-reset">Inicio</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Adopta</li>
-      </ol>
-      <section class=" col-md-12 text-center pb-4">
-        <h1>Adopta</h1>
-        <p>Consulta nuestro gatálogo para saber más sobre los gatitos que buscan un hogar.</p>
-      </section>
-      <div class="ml-5 mr-5">
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="cards-wrapper">
-              <div class="card">
-                <img src="./images/gat1.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Missy</h5>
-                  <p class="card-text mb-0">Raza: Mestizo</p>
-                  <p class="card-text">Edad: 3 años</p>
-                  <button type="button" class="btn btn-primary color-morado sin-borde">Detalles</button>
-                </div>
-              </div>
-              <div class="card d-none d-md-block">
-                <img src="./images/gat2.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Whiskas</h5>
-                  <p class="card-text mb-0">Raza: Mestizo</p>
-                  <p class="card-text">Edad: 1 año</p>
-                  <button type="button" class="btn btn-primary color-morado sin-borde">Detalles</button>
-                </div>
-              </div>
-              <div class="card d-none d-md-block">
-                <img src="./images/gat3.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Jupiter</h5>
-                  <p class="card-text mb-0">Raza: Mestizo</p>
-                  <p class="card-text">Edad: 3 meses</p>
-                  <button type="button" class="btn btn-primary color-morado sin-borde">Detalles</button>
-                </div>
-              </div>
-              <div class="card d-none d-md-block">
-                <img src="./images/gat4.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Kimmy</h5>
-                  <p class="card-text mb-0">Raza: Mestizo</p>
-                  <p class="card-text">Edad: 6 meses</p>
-                  <button type="button" class="btn btn-primary color-morado sin-borde">Detalles</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        </a>
+        <ol class="breadcrumb sin-fondo">
+          <li class="breadcrumb-item"><a href="index.html" class="text-decoration-none text-reset">Inicio</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Adopta</li>
+        </ol>
+        <section class=" col-md-12 text-center pb-4">
+          <h1>Adopta</h1>
+          <p>Consulta nuestro gatálogo para saber más sobre los gatitos que buscan un hogar.</p>
+        </section>
       </div>
-      <div class="ml-5 mr-5">
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="cards-wrapper">
-              <div class="card">
-                <img src="./images/gat5.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Monchi</h5>
-                  <p class="card-text mb-0">Raza: Mestizo</p>
-                  <p class="card-text">Edad: 3 años</p>
-                  <button type="button" class="btn btn-primary color-morado sin-borde">Detalles</button>
-                </div>
+      <div class="container pl-5 pr-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4 align-self-center justify-content-around">
+          <div class="col">
+            <div class="card h-100">
+              <img src="./images/gat1.png" class="card-img-top" alt="..."/>
+              <div class="card-body">
+                <h5 class="card-title">Whiskas</h5>
+                <p class="card-text mb-0">Raza: Mestizo</p>
+                <p class="card-text">Edad: 3 meses</p>
+                <button type="button" class="btn btn-primary color-morado sin-borde">Detalles</button>            
               </div>
-              <div class="card d-none d-md-block">
-                <img src="./images/gat6.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Pelusa</h5>
-                  <p class="card-text mb-0">Raza: Mestizo</p>
-                  <p class="card-text">Edad: 7 meses</p>
-                  <button type="button" class="btn btn-primary color-morado sin-borde">Detalles</button>
-                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="./images/gat2.png"
+                class="card-img-top"
+                alt="..."
+                />
+              <div class="card-body">
+                <h5 class="card-title">Missy</h5>
+                <p class="card-text mb-0">Raza: Mestizo</p>
+                <p class="card-text">Edad: 7 meses</p>
+                <button type="button" class="btn btn-primary color-morado sin-borde">Detalles</button>
               </div>
-              <div class="card d-none d-md-block">
-                <img src="./images/gat7.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Horacio</h5>
-                  <p class="card-text mb-0">Raza: Mestizo</p>
-                  <p class="card-text">Edad: 3 meses</p>
-                  <button type="button" class="btn btn-primary color-morado sin-borde">Detalles</button>
-                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="./images/gat8.png"
+                class="card-img-top"
+                alt="..."
+                />
+              <div class="card-body">
+                <h5 class="card-title">Kimmy</h5>
+                <p class="card-text mb-0">Raza: Mestizo</p>
+                <p class="card-text">Edad: 3 años</p>
+                <button type="button" class="btn btn-primary color-morado sin-borde">Detalles</button>            
               </div>
-              <div class="card d-none d-md-block">
-                <img src="./images/gat8.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Canela</h5>
-                  <p class="card-text mb-0">Raza: Mestizo</p>
-                  <p class="card-text">Edad: 3 años</p>
-                  <button type="button" class="btn btn-primary color-morado sin-borde">Detalles</button>
-                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="./images/gat4.png"
+                class="card-img-top"
+                alt="..."
+                />
+              <div class="card-body">
+                <h5 class="card-title">Monchi</h5>
+                <p class="card-text mb-0">Raza: Mestizo</p>
+                <p class="card-text">Edad: 3 meses</p>
+                <button type="button" class="btn btn-primary color-morado sin-borde">Detalles</button>            
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="./images/gat5.png"
+                class="card-img-top"
+                alt="..."
+                />
+              <div class="card-body">
+                <h5 class="card-title">Pelusa</h5>
+                <p class="card-text mb-0">Raza: Mestizo</p>
+                <p class="card-text">Edad: 1 año</p>
+                <button type="button" class="btn btn-primary color-morado sin-borde">Detalles</button>            
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="./images/gat6.png"
+                class="card-img-top"
+                alt="..."
+                />
+              <div class="card-body">
+                <h5 class="card-title">Horacio</h5>
+                <p class="card-text mb-0">Raza: Mestizo</p>
+                <p class="card-text">Edad: 3 meses</p>
+                <button type="button" class="btn btn-primary color-morado sin-borde">Detalles</button>            
               </div>
             </div>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        </a>
       </div>
     </main>
     <!------FOOTER------>

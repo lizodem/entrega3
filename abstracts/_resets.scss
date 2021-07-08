@@ -46,7 +46,10 @@ a:hover{
     text-decoration: none;
     background-color: $colormorado;
     color:rgb(255, 255, 255) !important;
-    border-radius: .25rem;
+}
+
+a#logo:hover{
+    background-color: transparent;
 }
 
 button:hover{
